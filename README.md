@@ -14,17 +14,10 @@ Shimmer bank is a digital bank which aims at ensuring free and fair transactions
 
  - [Google fonts]('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@300;400;600;700&family=Roboto:wght@100;500;700&display=swap')
 
-## Authors
-- [Omodolapo fakoya] (dolapofakoya@gmail.com) Product Manager
-- [Onyobeno Ovuzo](https://github.com/Ovuzo) FrontEnd Developer
-- [Adeoye James Adeyemi](https://github.com/yemoscovic) FrontEnd Developer
-- [unwana umana] (unwanaumana2@gmail.com) FrontEnd Developer
+## Author
+
 - [lawrence Akinboye](https://github.com/min-law) FrontEnd Developer
-- [ANIMASAHUN Uthman](https://github.com/Raaancho) FrontEnd Developer
-- [Adefila Heritage](https://github.com/adefilaheritage) FrontEnd Developer
-- Solomon Moregood-Product Designer
-- Abdulazeez Mariam - Graphics Designer/Brand Identity
-- Ifunanya David - Graphics Designer/Brand Identity
+
 
 ## Demo
 
@@ -60,4 +53,4 @@ will be updated as soon as possible
 
 **Client:** HTML, CSS.
 
-**Server:** PHYTHON, MONGODB
+**Server:** PHYTHON
