@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Payment Platform - Digital Bank</title>
+    <link rel="stylesheet" href="css/payment.css">
+    <script>
+        // Add your JavaScript code here
+        function validateForm() {
+            // Perform form validation logic here
+            // You can check for empty fields, validate card details, etc.
+            // Return true if the form is valid, or false otherwise
+            return true;
+        }
+
+        function handlePayment(event) {
+            event.preventDefault();
+
+            if (validateForm()) {
+                // Perform payment processing logic here
+                // You can make an API call to your backend to process the payment
+
+                // Display success message
+                const successMessage = document.querySelector('.success-message');
+                successMessage.innerText = 'Payment successful!';
+
+                // Clear form inputs
+                document.getElementById('card-number').value = '';
+                document.getElementById('expiry-date').value = '';
+                document.getElementById('cvv').value = '';
+            } else {
+                // Display error message
+                const errorMessage = document.querySelector('.error-message');
+                errorMessage.innerText = 'Payment failed. Please check your details and try again.';
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="signup-wrapper">
+        <div class="signup-main container">
+           <h1>Payment Platform</h1>
+
+            <form id="payment-form" onsubmit="handlePayment(event)">
+                <label for="card-number">Card Number</label>
+                <input type="text" id="card-number" required>
+
+                <label for="expiry-date">Expiry Date</label>
+                <input type="text" id="expiry-date" required>
+
+                <label for="cvv">CVV</label>
+                <input type="number" id="cvv" required>
+
+                <button class="btn-proceed" type="submit">Make Payment</button>
+           </form>
+
+           <p class="success-message"></p>
+           <p class="error-message"></p>
+        </div>
+    </div>
+
+</body>
+</html>
